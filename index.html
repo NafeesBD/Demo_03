@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- REQUIRED META TAGS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple portfolio website.">
+    <meta name="robots" content="index, follow">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="resources/assets/logo.png" type="image/x-icon">
+    <!-- TITLE -->
+    <title>Saiful Islam</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.24/dist/css/uikit.min.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/query.css">
+</head>
+<body>
+
+    <!-- START HEADER SECTION -->
+    <header id="hero">
+        <nav class="clearfix" data-uk-sticky="start: 200; offset: 80; animation: uk-animation-slide-top">
+            <div class="container">
+                <div class="logo">
+                    <a href="">
+                        <img src="resources/assets/logo.png" alt="Nafees">
+                    </a>
+                </div>
+                <div class="menu">
+                    <a href="javascript:void(0)" onclick="openMenu()">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div id="menu-container" onclick="closeMenu()">
+            <div class="close-btn">
+                <a href="javascript:void(0)" onclick="closeMenu()"><ion-icon name="close-circle-outline"></ion-icon></a>
+            </div>
+            <ul class="ham-menu">
+                <li><a href="#hero">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#exp">EXPERIENCE</a></li>
+                <li><a href="#work">Works</a></li>
+                <li><a href="#tm">Statement</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-content-box" data-uk-scrollspy="cls:uk-animation-scale-up; repeat: true">
+                    <h1>SI Nafees</h1>
+                    <br>
+                    <span>#Web Design #Development #Wordpress</span>
+                </div>
+            </div>
+        </div> 
+        <div class="container">
+            <div class="next-section">
+                <a href="#about"><ion-icon name="download-outline"></ion-icon></a>
+            </div>
+        </div>  
+    </header>
+    <!-- END HEADER SECTION -->
+
+    <!-- START ABOUT SECTION -->
+    <section id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-grid-item">
+                    <img src="resources/assets/paul.jpg" alt="Nafees">
+                </div>
+                <div class="about-grid-item">
+                    <h4>Professional Web Designer and Developer | WordPress Expert</h4>
+                    <p>Hello, I'm Saiful Islam Nafees, your all-in-one solution for web design, development, and WordPress expertise. With a passion for creating captivating online experiences and a knack for turning ideas into reality, I'm here to take your web presence to the next level.<br>With a wealth of experience spanning 5+ years, I've successfully delivered a wide range of projects, from eye-catching website designs to seamless WordPress solutions. My aim is to not just meet but exceed your expectations with every project.</p>
+                    <div class="about-cta-btn">
+                        <a href="" class="btn btn-full">hire me!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END ABOUT SECTION -->
+
+    <!-- START PROCESS SECTION -->
+    <section id="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Working Process</h2>
+                <p>Front End And Back End Web Development</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-grid-item">
+                    <img src="resources/assets/monitor.png" alt="Design">
+                    <h4>Web Design</h4>
+                </div>
+                <div class="process-grid-item">
+                    <img src="resources/assets/develop.png" alt="Development">
+                    <h4>Web Development</h4>
+                </div>
+                <div class="process-grid-item">
+                    <img src="resources/assets/wp.png" alt="Wordpress">
+                    <h4>Wordpress</h4>
+                </div>
+                <div class="process-grid-item">
+                    <img src="resources/assets/seo.png" alt="SEO">
+                    <h4>SEO</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END PROCESS SECTION -->
+
+    <!-- START EXPERIENCE SECTION -->
+    <section id="exp">
+        <div class="container">
+            <div class="exp-grid">
+                <div class="exp-grid-item">
+                    <h3>Work Experience</h3>
+                    <div class="job">
+                        <h4>Web Designer</h4>
+                        <span>Jan 2014 - Dec 2016</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h4>Front End Developer</h4>
+                        <span>Jan 2016 - Nov 2018</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </div>
+                <div class="exp-grid-item">
+                    <h3>Work Experience</h3>
+                    <div class="job">
+                        <h4>Wordpress Developer</h4>
+                        <span>Dec 2018 - Oct 2021</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h4>Web Developer</h4>
+                        <span>OCT 2019 - Dec 2023</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END EXPERIENCE SECTION -->
+
+    <!-- START WORK SECTION -->
+    <section id="work">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Latest Works</h2>
+                <p>You Just Look And Decide</p>
+            </div>
+            <div class="work-filter">
+                <button type="button" data-filter="all">all</button>
+                <button type="button" data-filter=".web-design">web design</button>
+                <button type="button" data-filter=".web-development">web development</button>
+                <button type="button" data-filter=".wp">wordpress</button>
+            </div>
+            <div class="work-grid" data-uk-lightbox="animation: scale">
+                <div class="work-grid-item mix wp">
+                    <a href="resources/assets/lwp1.jpg">
+                        <img src="resources/assets/lwp1.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wp">
+                    <a href="resources/assets/lwp2.jpg">
+                        <img src="resources/assets/lwp2.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wp">
+                    <a href="resources/assets/lwp3.jpg">
+                        <img src="resources/assets/lwp3.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wp">
+                    <a href="resources/assets/lwp4.jpg">
+                        <img src="resources/assets/lwp4.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-development">
+                    <a href="resources/assets/lw5.jpg">
+                        <img src="resources/assets/lw5.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-development">
+                    <a href="resources/assets/lwp6.jpg">
+                        <img src="resources/assets/lwp6.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-development">
+                    <a href="resources/assets/lwp7.jpg">
+                        <img src="resources/assets/lwp7.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-development">
+                    <a href="resources/assets/lwp8.jpg">
+                        <img src="resources/assets/lwp8.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-design">
+                    <a href="resources/assets/lwp9.jpg">
+                        <img src="resources/assets/lwp9.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-design">
+                    <a href="resources/assets/lwp10.jpg">
+                        <img src="resources/assets/lwp10.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-design">
+                    <a href="resources/assets/lwp11.jpg">
+                        <img src="resources/assets/lwp11.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-design">
+                    <a href="resources/assets/lwp12.jpg">
+                        <img src="resources/assets/lwp12.jpg" alt="Work">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END WORK SECTION -->
+
+    <!-- START TESTIMONIAL SECTION -->
+    <section id="tm">
+        <div class="container">
+            <div class="tm-grid">
+                <div class="tm-grid-item">
+                    <img src="resources/assets/quote.png" class="quote" alt="Quote">
+                    <p>Certainly, here's a concise introduction for Saiful Islam Nafees, highlighting expertise as a web designer, developer, and WordPress specialist.</p>
+                    <img src="resources/assets/signature.png" class="signature" alt="Croft">
+                    <h4>Saiful Islam</h4>
+                    <span>Creative Developer, Nafees</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END TESTIMONIAL SECTION -->
+
+    <!-- START CONTACT SECTION -->
+    <section id="contact">
+        <div class="container">
+            <div class="ct-grid">
+                <div class="ct-grid-item">
+                    <h3>Leave a message</h3>
+                    <form action="/contact.php" method="POST">
+                        <input type="text" placeholder="Name*" name="full-name" required>
+                        <input type="email" placeholder="Email*" name="mail" required>
+                        <input type="text" placeholder="Subject*" name="subject" required>
+                        <textarea placeholder="Message*" name="message" required></textarea>
+                        <div class="submit-btn">
+                            <input type="submit" class="btn btn-full" value="Now Send">
+                        </div>
+                    </form>
+                </div>
+                <div class="ct-grid-item nested-ct-grid">
+                    <div class="nested-ct-grid-item">
+                        <h3>Address</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sapiente non, vitae, quia deserunt, fuga facere reiciendis veritatis dolores iusto reprehenderit cupiditate odio velit consectetur?</p>
+                    </div>
+                    <div class="nested-ct-grid-item">
+                        <h3>Address</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam animi commodi autem esse. Laudantium, asperiores placeat. Aut mollitia corrupti eaque ea impedit suscipit, velit veritatis.</p>
+                    </div>
+                    <div class="nested-ct-grid-item">
+                        <h3>Address</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi magnam, ut, optio suscipit inventore voluptatibus ea cumque eum facere deleniti laboriosam doloremque quaerat doloribus?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+    <footer id="footer">
+        <div class="container">
+            <ul class="social-list">
+                <li><a target="_blank" href="https://facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a target="_blank" href="https://twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                <li><a target="_blank" href="https://instagram.com"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a target="_blank" href="https://linkedin.com/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            </ul>
+            <div class="copyright">
+                &copy;&nbsp;Copyright: Saiful | All Rights Reserved.
+            </div>
+            <div class="totop">
+                <a href="" data-uk-totop data-uk-scroll></a>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+
+
+    <!-- JS FILES -->
+    <script src="vendors/js/jquery-3.7.0.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="vendors/js/particles.min.js"></script>
+    <script src="vendors/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.24/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.24/dist/js/uikit-icons.min.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="resources/js/main.js"></script>
+
+    
+</body>
+</html>
